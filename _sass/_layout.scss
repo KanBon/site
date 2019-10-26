@@ -118,7 +118,6 @@ body {
 footer {
 	text-align: center;
 	background-color: #f4f4f4;
-	padding: 0px!important;
 	text-transform: uppercase;
 	letter-spacing: 4px;
 }
@@ -309,6 +308,15 @@ section {
 footer {
 	position: relative;
 	font-size: 1.9rem;
+	background-color: #373737;
+	color: #dcd0c0;
+	padding-top: 3rem;
+	text-align: right;
+
+	p{
+		padding: 10px 0;
+		border-bottom: 1px solid #dcd0c0;
+	}
 
 	h2 {
 		font-size: 2.5rem;
