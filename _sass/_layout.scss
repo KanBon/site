@@ -5,8 +5,8 @@ body {
 }
 
 .container {
-	max-width: 960px;
 	margin: 0 auto;
+	width: 100%;
 }
 
 .box {
@@ -16,12 +16,94 @@ body {
 	border-radius: 2px;
 }
 
-header {
+.hero-img{
+	background-position: center;
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: calc(50% - 40px) 175px;
 	height: 420px;
-	box-sizing: border-box;
+	margin-top: 50px;
+}
+
+.site-logo {
+	max-width: 35rem;
+	filter: drop-shadow(2px 7px 3px #000000);
+}
+
+
+.headshot-container {
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	display: inline-block;
+	margin: auto;
+}
+
+.headshot {
+	width: 100%;
+	border-radius: 50% !important;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.nav-logo {
+	float: left !important;
+	max-width: 50px;
+	margin: -15px 5px;
+	padding: 10px;
+	@media(max-width: 760px){
+		display: none !important;
+	}
+}
+
+.nav-logo-small {
+	@media(max-width: 760px) {
+		max-width: 30px;
+		margin-top: -5px;
+	}
+}
+
+.navbar{
+	@media(max-width: 760px) {
+		max-height: 42px;
+	}
+}
+
+.nav-link {
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.navbar-toggle{
+	border: 0px;
+	margin-top: 0px;
+}
+
+.fa-bars {
+	color: #3A4145;
+}
+
+.fa-2x {
+	font-size: 30px !important;
+}
+
+.home-logo {
+	padding: 6rem 0;
+}
+
+#hero {
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+header {
+// 	background-size: cover;
+// 	background-repeat: no-repeat;
+// 	background-position: calc(50% - 40px) 175px;
+// 	height: 420px;
+// 	box-sizing: border-box;
 
 	.container {
 		text-align: center;
@@ -37,7 +119,7 @@ header {
 		}
 
 		.container {
-			text-align: right;
+			text-align: center;
 		}
 	}
 
@@ -57,6 +139,7 @@ header {
 	}
 }
 
+
 header,
 footer {
 	a {
@@ -72,7 +155,6 @@ header a.active {
 	border-bottom: 2px solid;
 }
 
-header,
 footer,
 section {
 	padding: 30px 20px;
@@ -91,7 +173,7 @@ section {
 
 .main {
 	@extend .light-section;
-	font-size: 2.25rem;
+	font-size: 22px;
 }
 
 .light-section {
@@ -129,7 +211,6 @@ section {
 	padding: 70px 20px;
 
 	.container {
-		max-width: 600px;
 		text-align: center;
 	}
 }
