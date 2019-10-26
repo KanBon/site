@@ -1,13 +1,25 @@
----
-layout: default
----
+<!DOCTYPE html>
 
-{% if page.title %}
-	<div class="page-header">
-		<h2>{{ page.title }}</h2>
-	</div>
-{% endif %}
+<html>
+	{% include head.html %}
 
-<article class="content">
-	{{ content }}
-</article>
+	<body>
+		{% include header.html %}
+		{% include navigation.html %}
+
+
+		<section class="main">
+			<div class="page-container">
+				{{ content }}
+			</div>
+		</section>
+
+		<section class="quote-section">
+		  <p class="container editable">
+		    Life is about trusting the mess. Our mess tells our story, and helps create our purpose and message.
+		  </p>
+		</section>
+
+		{% include footer.html %}
+	</body>
+</html>

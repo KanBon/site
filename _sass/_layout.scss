@@ -19,15 +19,25 @@ body {
 .hero-img{
 	background-position: center;
 	background-size: cover;
-	height: 420px;
+	height: 350px;
 	margin-top: 50px;
 }
 
 .site-logo {
-	max-width: 35rem;
+	max-width: 50rem;
 	filter: drop-shadow(2px 7px 3px #000000);
 }
 
+.navbar-inverse .navbar-nav>li>a {
+	color: #dcd0c0;
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 4px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #c0b283;
+}
 
 .headshot-container {
 	border-radius: 50%;
@@ -43,6 +53,7 @@ body {
 	border-radius: 50% !important;
 	margin: 0 auto;
 	display: inline-block;
+	padding: 0 3rem;
 }
 
 .nav-logo {
@@ -68,6 +79,12 @@ body {
 	}
 }
 
+
+.navbar-inverse{
+	background: #373737;
+	border-color: #373737;
+}
+
 .nav-link {
 	text-transform: uppercase;
 	font-size: 18px;
@@ -79,7 +96,7 @@ body {
 }
 
 .fa-bars {
-	color: #3A4145;
+	color: #c0b283;
 }
 
 .fa-2x {
@@ -96,6 +113,16 @@ body {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	text-align: center;
+}
+
+.page-container {
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+}
+
+.page-container p {
+	margin-top: 4rem;
 }
 
 header {
@@ -143,7 +170,7 @@ header {
 header,
 footer {
 	a {
-		color: #3A4145;
+		color: #373737;
 
 		&.active {
 			border-bottom: 2px solid;
@@ -173,7 +200,8 @@ section {
 
 .main {
 	@extend .light-section;
-	font-size: 22px;
+	font-size: 20px;
+	background-color: #f4f4f4;
 }
 
 .light-section {
@@ -205,8 +233,9 @@ section {
 }
 
 .quote-section {
-	@extend .dark-section;
-	font-size: 3rem;
+	background-color: #dcd0c0;
+	color: #373737;
+	font-size: 22px;
 	font-style: italic;
 	padding: 70px 20px;
 
@@ -298,7 +327,7 @@ footer {
 
 		a {
 			svg {
-				fill: #3A4145;
+				fill: #373737;
 				margin-right: 10px;
 				transition: fill 0.2s ease;
 				vertical-align: middle;

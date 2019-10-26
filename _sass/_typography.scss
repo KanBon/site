@@ -17,7 +17,7 @@ body,
 input,
 textarea {
 	font-family: 'Source Sans Pro', sans-serif;
-	color: #3A4145;
+	color: #373737;
 	text-rendering: geometricPrecision;
 }
 
@@ -28,8 +28,9 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Merriweather', sans-serif;
-	font-weight: 400;
+	font-family: 'cabrito-didone-normal', serif;
+	font-weight: 600;
+	font-style: normal;
 	text-transform: uppercase;
 }
 
@@ -40,7 +41,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	letter-spacing: 0.18em;
+	letter-spacing: 0.1em;
 	line-height: 1.5;
 
 	&:not(:first-child) {
