@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Kani Rubango
+title: Kani Rubango | Therapist | Life Coach | Spiritual Healter
 url: "https://orchid-heron.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Therapist | Life Coach | Spiritual Healter
+description: My goal as a therapist is to provide a safe and compassionate place where counseling clients from all over Omaha can get encouragement and support as they navigate through the challenges of life.
 author:
   name:
   email:
