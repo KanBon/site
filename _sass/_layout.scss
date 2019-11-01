@@ -228,6 +228,15 @@ footer {
 	}
 }
 
+.site-title {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2rem;
+	letter-spacing: 4rem;
+	color: #dcd0c0;
+	filter: drop-shadow(2px 7px 3px #000000);
+}
+
 header a.active {
 	border-bottom: 2px solid;
 }
