@@ -4,6 +4,15 @@ body {
 	background-color: #fefefe;
 }
 
+::selection {
+  background: #3D473C; /* WebKit/Blink Browsers */
+	color: #ffffff;
+}
+::-moz-selection {
+  background: #3D473C; /* Gecko Browsers */
+	color: #ffffff;
+}
+
 .container {
 	margin: 0 auto;
 	width: 100%;
