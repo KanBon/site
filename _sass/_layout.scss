@@ -30,7 +30,7 @@ body {
 	background-size: cover;
 	height: 350px;
 	margin-top: 50px;
-	@media (max-width: 767px) {
+	@media (max-width: 760px) {
 		height: 250px;
 	}
 }
@@ -38,7 +38,7 @@ body {
 .site-logo {
 	max-width: 50rem;
 	filter: drop-shadow(2px 7px 3px #000000);
-	@media (max-width: 767px){
+	@media (max-width: 760px){
 		max-width: 35rem;
 	}
 	@media (max-width: 400px){
@@ -130,6 +130,9 @@ body {
 
 .home-logo {
 	padding: 5rem 0 0 0;
+	media(max-width: 760px){
+		paddign: 2rem 0 0 0;
+	}
 }
 
 #hero {
