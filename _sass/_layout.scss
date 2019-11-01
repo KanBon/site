@@ -21,6 +21,9 @@ body {
 	background-size: cover;
 	height: 350px;
 	margin-top: 50px;
+	@media (max-width: 767px) {
+		height: 250px;
+	}
 }
 
 .site-logo {
