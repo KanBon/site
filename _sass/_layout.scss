@@ -165,9 +165,15 @@ footer {
 }
 
 .page-container {
-	width: 75%;
+	width: 50%;
 	display: block;
 	margin: 0 auto;
+	@media(max-width: 760px) {
+		width: 75%
+	}
+	@media(max-width: 500px) {
+		width: 85%
+	}
 }
 
 .page-container p {
