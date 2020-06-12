@@ -135,7 +135,7 @@ hr{
 
 .home-logo {
 	padding: 5rem 0 0 0;
-	media(max-width: 760px){
+	@media(max-width: 760px){
 		paddign: 2rem 0 0 0;
 	}
 }
